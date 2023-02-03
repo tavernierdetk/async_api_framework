@@ -1,0 +1,8 @@
+version: '3.10'
+services:
+  audio_diarization:
+    image: audio_diarization:v1
+    ports:
+      - "5901:5901"
+    volumes:
+      - .:/app
